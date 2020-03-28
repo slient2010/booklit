@@ -22,4 +22,7 @@ function emit_coveralls() {
 trap emit_coveralls EXIT
 
 echo "running tests..."
-./scripts/test -p "$@"
+# ./scripts/test -p "$@"
+
+
+docker version
