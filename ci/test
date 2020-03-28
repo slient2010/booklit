@@ -22,5 +22,5 @@ function emit_coveralls() {
 trap emit_coveralls EXIT
 
 echo "running tests..."
-cat /etc/os_release
+who
 # ./scripts/test -p "$@"
