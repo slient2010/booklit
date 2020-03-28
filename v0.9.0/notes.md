@@ -13,3 +13,4 @@
 
 * added a `joinLines` function, which is useful for implementing Markdown-style
   syntax where all lines but the first have to be inteded (e.g. lists).
+
